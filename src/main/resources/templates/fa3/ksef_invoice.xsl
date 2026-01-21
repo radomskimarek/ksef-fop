@@ -1218,7 +1218,7 @@
                             <fo:table-column column-width="20%"/> <!-- Kwota netto-->
                             <fo:table-column column-width="20%"/> <!-- Kwota podatku -->
                             <fo:table-column column-width="20%"/> <!-- Kwota brutto -->
-                            <xsl:if test="crd:Fa/crd:P_14_1W|crd:Fa/crd:P_14_2W|crd:Fa/crd:P_14_3W">
+                            <xsl:if test="crd:Fa/crd:P_14_1W|crd:Fa/crd:P_14_2W|crd:Fa/crd:P_14_3W|crd:Fa/crd:P_14_4W">
                                 <fo:table-column column-width="20%"/> <!-- Kwota podatku PLN -->
                             </xsl:if>
                             <fo:table-header>
